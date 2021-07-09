@@ -1,0 +1,48 @@
+body{
+    font-family: 'Otomanopee One', sans-serif;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.micontainer{
+    margin: 0,auto;
+    width: 90%;
+}
+.columna{
+    background: rgb(228, 218, 236);
+    color: rgb(58, 53, 53);
+    border: 1px solid rgb(58, 53, 53);
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(58, 53, 53);
+    width: 23%;
+    box-sizing: border-box;
+}
+p{
+    color:rgb(58, 53, 53) ;
+}
+.parrafo2{
+    font-family: 'Roboto', sans-serif;
+}
+.botonprecio{
+    background: aqua;
+    color: darkblue;
+    display: block;
+    padding: 10px;
+    margin-bottom: 3px;
+    text-decoration: none;
+}
+.botonprecio:hover{
+    background: rgb(112, 106, 106);
+    
+}
+@media(max-width:1070px){
+    .columna{
+        width: 45%;
+        margin-bottom: 10px;
+
+    }
+}
